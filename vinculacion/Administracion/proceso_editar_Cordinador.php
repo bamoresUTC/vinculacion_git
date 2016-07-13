@@ -9,10 +9,6 @@ $emailU=$_POST['email'];
 $claveU=$_POST['clave'];
 $claveRU=$_POST['claveR'];
 
-
-
-
-
 mysql_query("update usuario set nombreUsu='$nombreU',apellidoUsu='$apellidoU',direccionUsu='$direccionU',
 		   telefonoUsu='$telefonoU',emailUsu='$emailU',claveUsu='$claveU', repitaclaveUsu='$claveRU' 
 		   where idUsu='$idUsu'");

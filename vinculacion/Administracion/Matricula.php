@@ -21,7 +21,7 @@ include ("../seguridad/seguridad.php");
 // 						este numero se guarda en la factura de  la base de datos
 						$maxFac++;
 						?>
-<!-- 					para  colocar ceros en la factura solo para visualizar-->
+<!-- 					para  colocar ceros en la matricula-->
 					<?php 
 					if ($maxFac>=0 && $maxFac<10)
 					{
@@ -36,11 +36,7 @@ include ("../seguridad/seguridad.php");
 						$maxF='0'.$maxFac;
 					}
 				?>
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!doctype html> <html class="no-js" lang=""> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -283,12 +279,6 @@ $(document).find("#valor").val(x);
 			<h3>2016</h3>
 		</div>
 	</footer>
-
-
-       
-
-       
-
         <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="../js/vendor/bootstrap.min.js"></script>
         <script src="../js/main.js"></script>

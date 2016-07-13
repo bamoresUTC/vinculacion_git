@@ -26,7 +26,7 @@
 	
 		else {
 	
-			// Comprobar
+			// Comparar
 			$pwd =  ( $pwd );
 			$cad="insert into usuario (idRol,cedulaUsu, nombreUsu, apellidoUsu, direccionUsu, telefonoUsu, emailUsu,claveUsu,repitaclaveUsu) values('$rol','$ced','$nom','$apell','$dir','$tel','$email','$pwd','$pwdr')";
 			

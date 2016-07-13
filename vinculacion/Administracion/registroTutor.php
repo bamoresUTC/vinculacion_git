@@ -138,7 +138,6 @@ function texto() {
                   
         <button class="btn btn-lg btn-primary btn-block" style="width: 100px;height:100 px; float:none; margin-left:100px;" type="submit">Registrar</button>
       </form>
-    </div> <!-- /container -->
-
+    </div> 
 </body></html>
     

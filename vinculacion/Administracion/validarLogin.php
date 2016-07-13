@@ -30,9 +30,6 @@ echo "<script>location.href='login.php'</script>";
 
  ?>
 
- 
-
- 
 <!-- Pasar una variable javascrip a php comprobado  -->
 <script>
 var usu  = '<?php echo  $nom   ." " . $ape?>';
